@@ -1,0 +1,27 @@
+<form matForm [formGroup]="ClientForm" (ngSubmit)="onSubmit()">
+  <mat-form-field >
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Name" formControlName="name" >
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Street</mat-label>
+    <input matInput placeholder="Street" formControlName="street">
+  </mat-form-field>
+
+  <mat-form-field>
+   <p> <mat-label>Address</mat-label>
+    <input matInput formControlName="address1"></p>
+    <input matInput formControlName="address2">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>City/Town</mat-label>
+    <input matInput placeholder="City/Town" formControlName="city">
+  </mat-form-field>
+
+
+  <mat-form-field>
+    <mat-label>Postal Code</mat-label>
+    <input matInput placeholder="Post Code" formControlName="zipcode">
+  </mat-form-field>
+  </form>
