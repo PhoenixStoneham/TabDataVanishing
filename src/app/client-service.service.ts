@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
-import { Client } from 'src/entities/clientSchema';
+import { Client } from '../entities/clientSchema';
 
 @Injectable({
   providedIn: 'root'

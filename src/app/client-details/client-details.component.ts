@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { Subscription } from 'rxjs';
-import { Client } from 'src/entities/clientSchema';
+import { Client } from '../../entities/clientSchema';
 import { ClientService } from '../client-service.service';
 
 @Component({

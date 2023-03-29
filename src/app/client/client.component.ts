@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap } from '@angular/router';
-import { Client } from 'src/entities/clientSchema';
+import { Client } from '../../entities/clientSchema';
 import { ClientService } from '../client-service.service';
 
 @Component({
